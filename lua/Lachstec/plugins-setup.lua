@@ -59,6 +59,9 @@ return packer.startup(function(use)
   
   -- rust tools
   use("simrat39/rust-tools.nvim")
+  
+  -- pretty icons
+  use("nvim-tree/nvim-web-devicons")
 
   if packer_bootstrap then
     require("packer").sync()
