@@ -62,6 +62,7 @@ return packer.startup(function(use)
   
   -- git tools
   use("dinhhuy258/git.nvim")
+  use("lewis6991/gitsigns.nvim")
 
   -- pretty icons
   use("nvim-tree/nvim-web-devicons")
