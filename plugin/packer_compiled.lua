@@ -114,6 +114,16 @@ _G.packer_plugins = {
     path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
+  ["git.nvim"] = {
+    loaded = true,
+    path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/git.nvim",
+    url = "https://github.com/dinhhuy258/git.nvim"
+  },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",

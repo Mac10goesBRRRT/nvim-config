@@ -60,8 +60,13 @@ return packer.startup(function(use)
   -- rust tools
   use("simrat39/rust-tools.nvim")
   
+  -- git tools
+  use("dinhhuy258/git.nvim")
+
   -- pretty icons
   use("nvim-tree/nvim-web-devicons")
+  -- pretty status bar
+  use("nvim-lualine/lualine.nvim")
 
   if packer_bootstrap then
     require("packer").sync()
