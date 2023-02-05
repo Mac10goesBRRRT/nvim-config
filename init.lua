@@ -12,4 +12,4 @@ require("Lachstec.plugins.git")
 require("Lachstec.plugins.gitsigns")
 require("lachstec.plugins.lsp.lspsaga")
 require("Lachstec.plugins.lsp.lspconfig")
-
+require("Lachstec.plugins.glow")

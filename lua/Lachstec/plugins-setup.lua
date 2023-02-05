@@ -71,6 +71,9 @@ return packer.startup(function(use)
   -- pretty status bar
   use("nvim-lualine/lualine.nvim")
 
+  -- markdown previews
+  use("ellisonleao/glow.nvim")
+
   if packer_bootstrap then
     require("packer").sync()
   end
