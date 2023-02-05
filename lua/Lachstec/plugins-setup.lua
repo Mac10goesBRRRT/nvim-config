@@ -60,10 +60,8 @@ return packer.startup(function(use)
 
   -- lsp server config
   use("neovim/nvim-lspconfig")
-  
   -- rust tools
   use("simrat39/rust-tools.nvim")
-  
   -- git tools
   use("dinhhuy258/git.nvim")
   use("lewis6991/gitsigns.nvim")

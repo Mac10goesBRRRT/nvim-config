@@ -10,4 +10,6 @@ require("Lachstec.plugins.cmp")
 require("Lachstec.plugins.lualine")
 require("Lachstec.plugins.git")
 require("Lachstec.plugins.gitsigns")
+require("lachstec.plugins.lsp.lspsaga")
 require("Lachstec.plugins.lsp.lspconfig")
+
