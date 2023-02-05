@@ -124,6 +124,16 @@ _G.packer_plugins = {
     path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
+  ["lspkind.nvim"] = {
+    loaded = true,
+    path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
+    url = "https://github.com/onsails/lspkind.nvim"
+  },
+  ["lspsaga.nvim"] = {
+    loaded = true,
+    path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
+    url = "https://github.com/glepnir/lspsaga.nvim"
+  },
   ["lualine.nvim"] = {
     loaded = true,
     path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/lualine.nvim",
@@ -173,6 +183,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
     url = "https://github.com/simrat39/rust-tools.nvim"
+  },
+  ["typescript.nvim"] = {
+    loaded = true,
+    path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/typescript.nvim",
+    url = "https://github.com/jose-elias-alvarez/typescript.nvim"
   },
   ["vim-nightfly-colors"] = {
     loaded = true,

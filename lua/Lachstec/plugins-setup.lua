@@ -45,7 +45,11 @@ return packer.startup(function(use)
   -- snippets and completions
   use("hrsh7th/nvim-cmp") -- completion framework
   use("hrsh7th/cmp-nvim-lsp") -- lsp completion source
-  
+  use({"glepnir/lspsaga.nvim", branch = "main"})
+  use("jose-elias-alvarez/typescript.nvim")
+  use("onsails/lspkind.nvim")
+
+
   -- useful snippet resources
   use("hrsh7th/cmp-nvim-lua")
   use("hrsh7th/cmp-nvim-lsp-signature-help")
