@@ -74,6 +74,9 @@ return packer.startup(function(use)
   -- markdown previews
   use("ellisonleao/glow.nvim")
 
+  -- auto close brackets
+  use("windwp/nvim-autopairs")
+
   if packer_bootstrap then
     require("packer").sync()
   end
