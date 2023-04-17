@@ -74,9 +74,18 @@ return packer.startup(function(use)
   -- markdown previews
   use("ellisonleao/glow.nvim")
 
+  -- treesitter
+  use {
+    "nvim-treesitter/nvim-treesitter",
+    run = function()
+      local ts_update = require("nvim-treesiter.install").update({ with_sync = true})
+      ts_update()
+    end,
+  }
   -- auto close brackets
   use("windwp/nvim-autopairs")
-
+  -- auto close html tags 
+  use("windwp/nvim-ts-autotag")
   if packer_bootstrap then
     require("packer").sync()
   end
