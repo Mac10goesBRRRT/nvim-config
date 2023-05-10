@@ -129,6 +129,11 @@ _G.packer_plugins = {
     path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/glow.nvim",
     url = "https://github.com/ellisonleao/glow.nvim"
   },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
@@ -208,11 +213,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/typescript.nvim",
     url = "https://github.com/jose-elias-alvarez/typescript.nvim"
-  },
-  ["vim-nightfly-colors"] = {
-    loaded = true,
-    path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/vim-nightfly-colors",
-    url = "https://github.com/bluz71/vim-nightfly-colors"
   },
   ["vim-surround"] = {
     loaded = true,

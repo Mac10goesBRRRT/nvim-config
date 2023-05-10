@@ -27,8 +27,7 @@ end
 
 return packer.startup(function(use)
   use("wbthomason/packer.nvim") -- packer
-  use("bluz71/vim-nightfly-colors") -- color scheme
-  
+  use("rebelot/kanagawa.nvim") -- color scheme
   -- plugins for text editing
   use("tpope/vim-surround")
   use("vim-scripts/ReplaceWithRegister")
