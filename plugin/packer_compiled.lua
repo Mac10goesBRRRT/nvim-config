@@ -129,11 +129,6 @@ _G.packer_plugins = {
     path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/glow.nvim",
     url = "https://github.com/ellisonleao/glow.nvim"
   },
-  ["kanagawa.nvim"] = {
-    loaded = true,
-    path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
-    url = "https://github.com/rebelot/kanagawa.nvim"
-  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
@@ -158,6 +153,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["neovim-ayu"] = {
+    loaded = true,
+    path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/neovim-ayu",
+    url = "https://github.com/shatur/neovim-ayu"
   },
   ["nvim-autopairs"] = {
     loaded = true,
