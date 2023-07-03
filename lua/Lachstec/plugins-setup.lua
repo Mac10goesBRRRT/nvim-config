@@ -72,9 +72,12 @@ return packer.startup(function(use)
 
   -- markdown previews
   use("ellisonleao/glow.nvim")
-  
   -- Github Copilot
   use("github/copilot.vim")
+  -- telescope
+  use("nvim-telescope/telescope.nvim")
+  -- fd for enhanced telescope experience
+  use("sharkdp/fd")
 
   -- treesitter
   use {
