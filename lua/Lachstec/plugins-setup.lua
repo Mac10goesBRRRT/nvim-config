@@ -27,7 +27,7 @@ end
 
 return packer.startup(function(use)
   use("wbthomason/packer.nvim") -- packer
-  use("shatur/neovim-ayu") -- color scheme
+  use("catppuccin/nvim") -- color scheme
   -- plugins for text editing
   use("tpope/vim-surround")
   use("vim-scripts/ReplaceWithRegister")
@@ -78,7 +78,6 @@ return packer.startup(function(use)
   use("nvim-telescope/telescope.nvim")
   -- fd for enhanced telescope experience
   use("sharkdp/fd")
-
   -- treesitter
   use {
     "nvim-treesitter/nvim-treesitter",

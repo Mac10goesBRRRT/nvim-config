@@ -164,10 +164,10 @@ _G.packer_plugins = {
     path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["neovim-ayu"] = {
+  nvim = {
     loaded = true,
-    path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/neovim-ayu",
-    url = "https://github.com/shatur/neovim-ayu"
+    path = "/Users/leonlux/.local/share/nvim/site/pack/packer/start/nvim",
+    url = "https://github.com/catppuccin/nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
