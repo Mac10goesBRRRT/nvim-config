@@ -72,6 +72,9 @@ return packer.startup(function(use)
 
   -- markdown previews
   use("ellisonleao/glow.nvim")
+  
+  -- Github Copilot
+  use("github/copilot.vim")
 
   -- treesitter
   use {
