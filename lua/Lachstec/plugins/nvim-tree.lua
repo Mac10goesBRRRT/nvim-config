@@ -11,4 +11,10 @@ vim.g.loaded_netrwPlugin = 1
 vim.opt.termguicolors = true
 
 -- setup using defaults
-require("nvim-tree").setup()
+nvimtree.setup({
+  sort_by = "case-sensitive",
+  filters = {
+    dotfiles = false,
+    git_ignored = false,
+  }
+})

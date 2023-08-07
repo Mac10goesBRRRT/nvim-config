@@ -28,6 +28,7 @@ end
 
 -- enable auto completion
 local capabilities = require("cmp_nvim_lsp").default_capabilities()
+capabilities.offsetEncoding = "utf-8"
 
 lspconfig["html"].setup({
   capabilities = capabilities,
