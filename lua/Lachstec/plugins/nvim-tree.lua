@@ -14,7 +14,6 @@ vim.opt.termguicolors = true
 nvimtree.setup({
   sort_by = "case-sensitive",
   filters = {
-    dotfiles = false,
-    git_ignored = false,
+    dotfiles = false
   }
 })
