@@ -23,4 +23,6 @@ return require('packer').startup(function(use)
 			'nvim-tree/nvim-web-devicons',
 		},
 	}
+	-- color theme
+	use 'Mofiqul/dracula.nvim'
 end)
