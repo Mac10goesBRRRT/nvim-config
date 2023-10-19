@@ -25,4 +25,17 @@ return require('packer').startup(function(use)
 	}
 	-- color theme
 	use 'Mofiqul/dracula.nvim'
+	-- tree sitter for better highlight 
+	use {
+		'nvim-treesitter/nvim-treesitter',
+		run = function()
+			local ts_update = require('nvim-treesitter.install').update({ with_sync = true })
+			ts_update()
+		end,
+	}
+	-- lualine for style
+	use {
+		'nvim-lualine/lualine.nvim',
+		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+	}
 end)
