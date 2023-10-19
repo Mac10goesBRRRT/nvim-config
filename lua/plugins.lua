@@ -16,4 +16,11 @@ return require('packer').startup(function(use)
 	use 'hrsh7th/cmp-path'
 	use 'hrsh7th/cmp-buffer'
 	use 'hrsh7th/vim-vsnip'
+	-- nvim-tree and icons
+	use {
+		'nvim-tree/nvim-tree.lua',
+		requires = {
+			'nvim-tree/nvim-web-devicons',
+		},
+	}
 end)
