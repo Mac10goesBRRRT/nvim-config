@@ -4,12 +4,8 @@ if not lspsaga_status then
 end
 
 lspsaga.setup({
-	move_in_saga = { prev = '<C-k>', next = '<C-j>' },
-	finder_action_key = {
-		open = '<CR>',
-	},
-	definitions_action_keys = {
-		edit = '<CR>',
-	},
+	symbols_in_winbar = {
+		enable = true,
+	}
 })
 
