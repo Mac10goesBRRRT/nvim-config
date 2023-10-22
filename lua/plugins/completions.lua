@@ -11,6 +11,11 @@ if not cmp_status then
 	return
 end
 
+local luasnip_status, luasnip = pcall(require, 'luasnip')
+if not luasnip_status then
+	return
+end
+
 cmp.setup({
 	-- key mappings for completion
 	mapping = {
@@ -58,6 +63,11 @@ cmp.setup({
 			}
 			item.menu = menu_icon[entry.source.name]
 			return item
+		end,
+	},
+	snippet = {
+		expand = function(args)
+			luasnip.lsp_expand(args.body)
 		end,
 	},
 })

@@ -16,6 +16,8 @@ return require('packer').startup(function(use)
 	use 'hrsh7th/cmp-path'
 	use 'hrsh7th/cmp-buffer'
 	use 'hrsh7th/vim-vsnip'
+	-- luasnip so that lua ls stops complaining
+	use 'L3MON4D3/LuaSnip'
 	-- nvim-tree and icons
 	use {
 		'nvim-tree/nvim-tree.lua',
@@ -38,4 +40,18 @@ return require('packer').startup(function(use)
 		'nvim-lualine/lualine.nvim',
 		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 	}
+	-- lspsaga for better lsp experience
+	use {
+		'nvimdev/lspsaga.nvim',
+		after = 'nvim-lspconfig'
+	}
+	-- telescope for fuzzy finding
+	use {
+		'nvim-telescope/telescope.nvim', tag = '0.1.4',
+		requires = { { 'nvim-lua/plenary.nvim' } },
+	}
+	-- autopairs for ergonomics
+	use 'windwp/nvim-autopairs'
+	-- gitsigns for style
+	use 'lewis6991/gitsigns.nvim'
 end)
