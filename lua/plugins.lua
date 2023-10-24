@@ -42,9 +42,13 @@ return require('packer').startup(function(use)
 	}
 	-- lspsaga for better lsp experience
 	use {
-		'glepnir/lspsaga.nvim',
+		'nvimdev/lspsaga.nvim',
 		branch = 'main',
-		after = 'nvim-lspconfig'
+		after = 'nvim-lspconfig',
+		dependencies = {
+			'nvim-treesitter/nvim-treesitter',
+			'nvim-tree/nvim-web-devicons'
+		}
 	}
 	-- telescope for fuzzy finding
 	use {
