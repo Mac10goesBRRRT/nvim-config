@@ -5,6 +5,6 @@ end
 
 lualine.setup({
 	options = {
-		theme = 'dracula-nvim',
+		theme = 'auto',
 	},
 })

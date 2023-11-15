@@ -39,7 +39,7 @@ return require('packer').startup(function(use)
 		},
 	}
 	-- color theme
-	use 'Mofiqul/dracula.nvim'
+	use { 'catppuccin/nvim', as = "catppuccin" }
 	-- tree sitter for better highlight 
 	use {
 		'nvim-treesitter/nvim-treesitter',
