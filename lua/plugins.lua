@@ -39,7 +39,8 @@ return require('packer').startup(function(use)
 		},
 	}
 	-- color theme
-	use { 'catppuccin/nvim', as = "catppuccin" }
+	use { "ellisonleao/gruvbox.nvim", as = "gruvbox"}
+	-- use { 'catppuccin/nvim', as = "catppuccin" }
 	-- tree sitter for better highlight 
 	use {
 		'nvim-treesitter/nvim-treesitter',

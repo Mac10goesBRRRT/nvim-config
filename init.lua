@@ -2,6 +2,7 @@ require('plugins')
 -- general configuration
 require('config/keymap')
 require('config/colorscheme')
+require('config/gruvbox')
 require('config/linenumbers')
 -- plugins
 require('plugins/nvim-tree')
